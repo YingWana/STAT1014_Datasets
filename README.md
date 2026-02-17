@@ -1,6 +1,6 @@
 # STAT1014 Datasets
 
-Cleaned, documented datasets for STAT1014 coursework. Each folder contains analysis-ready data with a detailed README and data dictionary.
+Each folder contains analysis-ready data with a detailed README and data dictionary.
 
 ---
 
