@@ -1,0 +1,19 @@
+variable,variable_name,measurement_unit,allowed_values,definition
+county,County,text,0.0 - 1.0,County or independent city name in Virginia
+region,Region,text,"Central Virginia, Eastern Shore/Northern Neck, Hampton Roads, Northern Virginia, Roanoke Area, Shenandoah Valley, Southside Virginia, Southwest Virginia","Virginia geographic region (8 categories: Northern Virginia, Shenandoah Valley, Southwest Virginia, Central Virginia, Southside Virginia, Hampton Roads, Eastern Shore/Northern Neck, Roanoke Area)"
+medinc_nonsnap,Median Income Non-SNAP,numeric,46691 - 181937,Median household income for households NOT receiving SNAP benefits (2023 inflation-adjusted USD)
+medinc_snap,Median Income SNAP,numeric,13021.0 - 115379.0,Median household income for households receiving SNAP benefits (2023 inflation-adjusted USD)
+income_gap,Income Gap,numeric,-53504.0 - 117359.0,"Income gap between non-SNAP and SNAP households (medinc_nonsnap minus medinc_snap, in USD)"
+snap_hh,SNAP Household Rate,numeric,0.018 - 0.347,Proportion of all households receiving SNAP benefits
+snap_below_pov,SNAP Below Poverty,numeric,0.099 - 0.73,Proportion of SNAP households below the federal poverty level
+snap_white,SNAP White,numeric,0.05 - 1.0,Proportion of SNAP households that are White alone 
+snap_black,SNAP Black,numeric,0.0 - 0.869,Proportion of SNAP households that are Black or African American alone
+snap_with_children,SNAP With Children,numeric,0.162 - 0.854,Proportion of SNAP households with children under 18 years
+snap_60plus,SNAP 60 Plus,numeric,0.041 - 0.727,Proportion of SNAP households with one or more people aged 60 plus years
+snap_disability,SNAP Disability,numeric,0.2 - 0.911,Proportion of SNAP households with one or more people with a disability
+snap_1worker,SNAP 1 Worker,numeric,0.092 - 0.957,Proportion of SNAP families with 1 worker in the past 12 months
+snap_nowork,SNAP No Work,numeric,0.0 - 0.775,Proportion of SNAP families with no workers in the past 12 months 
+snap_2plus_workers,SNAP 2 Plus Workers,numeric,0.0 - 0.667,Proportion of SNAP families with 2 or more workers in the past 12 months
+median_rent,Median Rent,numeric,665 - 2317,Median monthly gross rent in the locality (in hundreds of USD)
+grapi_35,Rent Burden 35 Percent,numeric,0.141 - 0.623,Proportion of renter households paying more than 35 percent of income on rent
+economic_score,Economic Score,numeric,0.1315 - 0.8429,Composite economic hardship index (higher equals more hardship)

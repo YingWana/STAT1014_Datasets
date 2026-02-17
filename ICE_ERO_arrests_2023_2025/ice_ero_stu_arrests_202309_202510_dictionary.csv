@@ -1,0 +1,18 @@
+variable,variable_name,measurement_unit,allowed_values,definition
+year,Year,numeric,2023 - 2025,Calendar year of apprehension
+quarter,Fiscal Quarter,text,"Q1, Q2, Q3, Q4","U.S. federal government fiscal quarter (Q1=Oct-Dec, Q2=Jan-Mar, Q3=Apr-Jun, Q4=Jul-Sep)"
+month,Month,text,January - December,Calendar month of apprehension
+administration,Administration,text,"Biden, Trump",Presidential administration during which the arrest occurred (Biden or Trump); Trump administration starts February 2025 (January 2025 is assigned to Biden)
+region,Region of Citizenship,text,"Africa, Asia, Canada, Central America & Caribbean, Europe, Mexico, Oceania, South America","Geographic region derived from arrestee's citizenship country (Africa, Asia, Canada, Central America & Caribbean, Europe, Mexico, Oceania, South America)"
+arrests_total,Total Arrests,numeric,6 - 11649,Total number of ICE ERO administrative arrests for the month-region combination; equals sum of custody and at-large arrests
+arrests_custody,Custody Arrests,numeric,2 - 5557,"Count of arrests made while individual was already in custody (CAP Local/State/Federal Incarceration, Custodial Arrest, Criminal Alien Program)"
+arrests_atlarge,At-Large Arrests,numeric,0 - 7158,"Count of arrests made while individual was at-large in the community (Non-Custodial Arrest, Located, Probation/Parole, 287(g), Worksite Enforcement, Patrol, Transportation Checks, Task Forces, Inspections, etc.)"
+case_removals,Removal Cases,numeric,0 - 5806,"Count of cases resulting in removal orders (Visa Waiver Deportation, Administrative Deportation, Judicial Deportation, Reinstated Final Order, Expedited Removal, Voluntary Departure, etc.)"
+cases_pending,Pending Cases,numeric,2 - 7999,"Count of cases pending adjudication (Under Adjudication by IJ/BIA, Hearing Not Commenced, Credible Fear Referral, Status Claim Referral, etc.)"
+case_other,Other Cases,numeric,0 - 557,Count of cases with other dispositions not classified as removals or pending
+male,Male,numeric,5 - 10284,Count of male arrestees
+female,Female,numeric,0 - 1467,Count of female arrestees
+unknown_gender,Unknown Gender,numeric,0 - 45,Count of arrestees with unknown or unrecorded gender
+age_minor,Minors (Under 18),numeric,0 - 385,Count of arrestees under 18 years of age at time of apprehension
+age_adult,Adults (18-64),numeric,5 - 11447,Count of arrestees aged 18-64 years at time of apprehension
+age_elder,Elders (65+),numeric,0 - 96,Count of arrestees aged 65 years or older at time of apprehension

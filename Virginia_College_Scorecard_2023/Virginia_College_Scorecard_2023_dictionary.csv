@@ -1,0 +1,15 @@
+variable,variable_name,measurement_unit,allowed_values,definition
+institution,Institution Name,text,0.0 - 1.0,Institution name
+inst_type,Institution Type,text,"2-year, 4-year",Institution type: 2-year or 4-year
+control,Institution Control,text,"Private for-profit, Private nonprofit, Public","Control: Public, Private nonprofit, or Private for-profit"
+enrollment,Undergraduate Enrollment,numeric,147.0 - 50059.0,Total undergraduate enrollment
+prop_pell,Pell Grant Rate,numeric,0.0 - 0.8413,Proportion of students receiving Pell Grants (low-income proxy)
+prop_firstgen,First-Generation Rate,numeric,0.1226 - 0.6549,Proportion of first-generation college students
+net_price_pell_eligible,Net Price for Pell-Eligible Families,numeric,481.5 - 37712.0,Average net price for Pell-eligible families (income <$48K); computed as mean of $0–30K and $30–48K brackets per FSA 2025–26 guidelines
+net_price_middle,Net Price for Middle-Income Families,numeric,5199.0 - 42553.0,Net price for middle-income families (income $48K–$75K)
+net_price_high,Net Price for High-Income Families,numeric,9383.0 - 47669.0,Net price for high-income families (income >$110K)
+completion_pell,Completion Rate (Pell Recipients),numeric,0.0 - 1.0,8-year completion rate for Pell Grant recipients
+completion_wealthy,"Completion Rate (No Pell, No Loans)",numeric,0.0 - 1.0,8-year completion rate for students with no Pell and no loans (wealthy proxy)
+completion_gap,Completion Gap (Wealthy − Pell),numeric,-0.5 - 0.3158,Completion gap: completion_wealthy minus completion_pell; positive = wealthy students complete at higher rates
+earnings_10yr,Median Earnings 10 Years After Entry,numeric,22160.0 - 94810.0,Median earnings 10 years after entry (federal aid recipients)
+debt_median,Median Federal Debt at Graduation,numeric,6880.0 - 40621.0,Median federal loan debt at graduation

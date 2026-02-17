@@ -1,0 +1,16 @@
+variable,variable_name,measurement_unit,allowed_values,definition
+place,Place Name,text,0.0 - 1.0,"Name of the place (city, town, or census-designated place)"
+county,County,text,0.0 - 1.0,Virginia county or independent city containing the place
+region,Virginia Region,text,"Central Virginia, Hampton Roads, Lynchburg Region, Northern Virginia, Richmond Metro, Roanoke-New River, Shenandoah Valley, Southside Virginia, Southwest Virginia",Virginia geographic region
+urban_type,Urban Classification,text,"Exurban, Rural Town, Suburban, Urban Core",Urban density classification
+population,Population,Int64,0.0 - 1.0,Population estimate from American Community Survey 2017–2021
+pop_density,Population Density,numeric,0.0 - 43022.39,Population density in people per square kilometer
+tree_equity_score,Tree Equity Score,numeric,64.5 - 100.0,Tree Equity Score; higher = more equitable tree coverage
+tree_canopy_pct,Tree Canopy Percentage,numeric,0.0 - 0.792,Proportion of land area covered by tree canopy
+heat_severity_F,Heat Vulnerable,numeric,-9.33 - 15.33,Temperature difference from urban area average (°F); positive values indicate hotter areas experiencing urban heat island effects
+health_burden,Health Burden Index,numeric,0.0195 - 0.8981,Normalized health burden index; higher = worse health outcomes
+prop_poverty,Poverty Rate,numeric,0.0 - 0.7108,Proportion of population living below federal poverty line
+prop_people_of_color,People of Color Rate,numeric,0.0 - 0.9005,Proportion of population identifying as people of color
+unemployment_rate,Unemployment Rate,numeric,0.0 - 0.2719,Proportion of labor force that is unemployed
+prop_children,Child Population Rate,numeric,0.0 - 0.4755,Proportion of population under age 18
+prop_seniors,Senior Population Rate,numeric,0.0 - 0.459,Proportion of population age 65 and older
