@@ -10,7 +10,6 @@
 # SECTION 1: Setup and Data Import
 #============================================================================
 
-# Set your working directory (change this to your folder path)
 setwd("~/Documents/stat_1014_dataset/hate_crime/processed_data")
 
 # Table A: State-level data (51 observations, 25 variables)
