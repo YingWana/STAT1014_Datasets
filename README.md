@@ -1,7 +1,5 @@
 # STAT1014 Datasets
 
-Each folder contains analysis-ready data with a detailed README and data dictionary.
-
 ---
 
 ## Datasets
