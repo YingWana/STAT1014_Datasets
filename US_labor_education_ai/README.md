@@ -39,7 +39,7 @@
 | `occupation_code` | Standard Occupational Classification code | text | SOC codes (e.g., 11-1011) |
 | `soc_major_code` | First two digits of SOC code | text | 2-digit major group (11–53) |
 | `occupation_group` | Major occupational group name | text | 22 major occupation groups |
-| `employment_2024` | Total employment (baseline year) | thousands | 0.2–3,936.7 |
+| `employment_2024` | Total employment | thousands | 0.2–3,936.7 |
 | `employment_2034` | Projected total employment | thousands | 0.2–4,029.2 |
 | `emp_change_pct` | Projected employment change 2024–2034 | percent | -36.1 to 49.9 |
 | `median_wage_2024` | Median annual wage | dollars | $30,160–$239,200 |
